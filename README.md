@@ -1,2 +1,0 @@
-# nahklar
-Created with CodeSandbox

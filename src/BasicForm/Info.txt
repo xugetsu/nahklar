@@ -1,0 +1,32 @@
+Formik render methods :
+  There are three ways to render things with <Formik />
+  <Formik component>
+  <Formik render>
+  <Formik children>
+  All three render methods will be passed the same props : 
+  https://github.com/jaredpalmer/formik#formik-render-methods
+      dirty
+      errors
+      handleBlur
+      handleChange
+      handleReset
+      handleSubmit
+      isSubmitting
+      isValid
+      isValidating
+      resetForm
+      setErrors
+      setFieldError
+      setFieldTouched
+      submitForm
+      submitCount
+      setFieldValue
+      setStatus
+      setSubmitting
+      setTouched
+      setValues
+      status
+      touched
+      values
+      validateForm
+      validateField

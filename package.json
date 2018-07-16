@@ -1,0 +1,14 @@
+{
+  "name": "formik-examples",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "antd": "3.7.0",
+    "formik": "1.0.1",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "yup": "0.25.1"
+  }
+}

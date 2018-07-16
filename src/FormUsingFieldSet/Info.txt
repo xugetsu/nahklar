@@ -1,0 +1,8 @@
+By using just Field, <TextInput> and <Select> are repetitive. 
+(see src/FormUsingField/CustomInputs/)
+At this point, we have some options.
+We could abstract away the label and error stuff into
+separate components and then reuse those. Or, better yet, you could wrap
+<Field>'s render and component props to make a new <Fieldset/> component
+that will add the label and display our errors while keeping almost the
+same API as <Field />

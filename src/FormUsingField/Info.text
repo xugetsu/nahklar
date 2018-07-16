@@ -1,0 +1,12 @@
+Field will automagically hook up inputs to Formik and will handle
+onBlure & onChange & values props for you.
+<Field /> will default to an <input /> element.
+To change the underlying element of <Field />,
+specify a component prop. It can either be a string like select or
+another React component. <Field /> can also take a render prop.
+The latter will be passed an object containing props from field
+and props form formik :
+//  <Field>
+//    render = { ( {form: {...}, field: {...}} ) => (...) }
+//    //....
+//  </Field>
